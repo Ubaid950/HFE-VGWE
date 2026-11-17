@@ -1,0 +1,16 @@
+{
+  "approved_for_evaluation": false,
+  "independence_reviewed": false,
+  "evidence_reference": "",
+  "source_dataset_id": "ffpp",
+  "target_dataset_id": "wilddeepfake",
+  "target_manifest_sha256": "",
+  "target_class_mapping": {
+    "real": 0,
+    "fake": 1
+  },
+  "checkpoint_sha256s": [],
+  "model_metadata_sha256s": [],
+  "source_validation_sha256s": [],
+  "source_training_validation_group_ids": []
+}

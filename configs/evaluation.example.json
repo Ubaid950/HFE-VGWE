@@ -1,0 +1,42 @@
+{
+  "source_dataset_id": "ffpp",
+  "target_dataset_id": "wilddeepfake",
+  "dataset_root": "SET_PRIVATE_DATASET_ROOT",
+  "target_manifest": "SET_PRIVATE_TARGET_MANIFEST.csv",
+  "target_class_mapping": {
+    "real": 0,
+    "fake": 1
+  },
+  "protocol_review": "SET_PRIVATE_APPROVED_REVIEW.json",
+  "models": [
+    {
+      "checkpoint": "SET_PRIVATE_CORRECTED_MODEL.keras",
+      "metadata": "SET_PRIVATE_MODEL_METADATA.json",
+      "source_validation": {
+        "path": "SET_PRIVATE_SOURCE_VALIDATION.csv",
+        "sha256": "",
+        "provenance": ""
+      }
+    },
+    {
+      "checkpoint": "SET_PRIVATE_CORRECTED_MODEL.keras",
+      "metadata": "SET_PRIVATE_MODEL_METADATA.json",
+      "source_validation": {
+        "path": "SET_PRIVATE_SOURCE_VALIDATION.csv",
+        "sha256": "",
+        "provenance": ""
+      }
+    },
+    {
+      "checkpoint": "SET_PRIVATE_CORRECTED_MODEL.keras",
+      "metadata": "SET_PRIVATE_MODEL_METADATA.json",
+      "source_validation": {
+        "path": "SET_PRIVATE_SOURCE_VALIDATION.csv",
+        "sha256": "",
+        "provenance": ""
+      }
+    }
+  ],
+  "output_dir": "SET_NEW_PRIVATE_OUTPUT_DIRECTORY",
+  "noise_seed": 17
+}

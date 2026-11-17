@@ -1,0 +1,14 @@
+# Full software/test imports, verified in an existing environment; not a lockfile.
+# No packages installed by this audit. All uncommented entries are requirements
+# for pip -r; XAI dependencies are optional only when using non-XAI APIs.
+numpy
+tensorflow
+Pillow
+# XAI interfaces and full test suite:
+lime
+scikit-image
+scikit-learn
+# Required for training phase .weights.h5 checkpoint serialization:
+h5py
+# Optional independent live Db2 test (not available in tested environment):
+# PyWavelets
