@@ -1,10 +1,8 @@
 # HFE-VGWE research software
 
-A small, private review candidate for corrected/reconstructed HFE-VGWE code.
-**This is not an authenticated reproduction of the manuscript experiments.**
-No dataset, checkpoint, experiment CSV, prediction array or restricted face image
-is included. No replacement split is active. Scientific training/evaluation and
-actual public publication remain unapproved.
+This repository provides a corrected/reconstructed HFE-VGWE software implementation for deepfake detection and explainable AI, including Grad-CAM and LIME.
+
+The repository does not independently reproduce or authenticate all experimental results reported in the accompanying manuscript. Original datasets, trained checkpoints and experimental prediction files are not redistributed. Implementation scope and scientific limitations are documented in LIMITATIONS.md and PROVENANCE.md.
 
 ## Supported methods
 
